@@ -12,6 +12,9 @@
 
     --color: #000;
     --background-color: #fff;
+
+    --min-width: 1920px;
+    --max-width: 1920px;
 }
 
 /* MEDIA | VARIABLES */
@@ -121,6 +124,7 @@ body {
     position: relative;
 
     min-width: var(--min-width);
+    max-width: var(--max-width);
 
     font-family: var(--font-family);
     font-size: var(--font-size);
